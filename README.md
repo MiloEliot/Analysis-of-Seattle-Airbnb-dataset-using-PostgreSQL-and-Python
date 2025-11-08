@@ -9,6 +9,6 @@ The Seattle Airbnb dataset has been compiled into a SQL database and it can be f
 
 ## 3. Repository Structure
 - `sql` - SQL script
-- `outputs` - the database [schema](./outputs/seattle_airbnb_schema.png) and the distribution of accommodations on [map](./outputs/seattle_airbnb.map.html)
+- `outputs` - the database [schema](./outputs/seattle_airbnb_schema.png) and the distribution of accommodations on the [map](./outputs/seattle_airbnb.map.html)
 - `Seattle_airbnb_analysis.ipynb` - The Jupyter notebook demonstrates the integration of PostgreSQL with Python for data processing, analysis, and visualization.
 
