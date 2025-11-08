@@ -22,7 +22,7 @@ license text
 copy listings(id, name, host_id, host_name, neighbourhood_group, neighbourhood, latitude, longitude,
 room_type, price, minimum_nights, number_of_reviews, last_review, reviews_per_month, 
 calculated_host_listings_count, availability_365, number_of_reviews_ltm, license)
-from '/Users/yingliu/Documents/GitHub/Seattle_Airbnb_Postgresql/data/listings.csv'
+from './Seattle_Airbnb_Postgresql/data/listings.csv'
 delimiter ','
 csv header;
 
@@ -40,7 +40,7 @@ minimum_nights int,
 maximum_nights bigint
 );
 copy calendar(listing_id, "date", available, price, adjusted_price, minimum_nights, maximum_nights)
-from '/Users/yingliu/Documents/GitHub/Seattle_Airbnb_Postgresql/data/calendar.csv'
+from './Seattle_Airbnb_Postgresql/data/calendar.csv'
 delimiter ','
 csv header;
 
@@ -57,7 +57,7 @@ reviewer_name char(64),
 "comments" text
 );
 copy reviews(listing_id, id, "date", reviewer_id, reviewer_name, "comments")
-from '/Users/yingliu/Documents/GitHub/Seattle_Airbnb_Postgresql/data/reviews.csv'
+from './Seattle_Airbnb_Postgresql/data/reviews.csv'
 delimiter ','
 csv header;
 
